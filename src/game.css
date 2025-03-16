@@ -1,0 +1,33 @@
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+img {
+  border: 2px pink dotted;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+p {
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+
+.loading {
+  height: 100vh;
+  font-size: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

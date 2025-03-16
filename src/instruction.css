@@ -1,0 +1,14 @@
+.start {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin: 0;
+  top: 0;
+  right: 0;
+}
+body {
+  margin: 0;
+}
